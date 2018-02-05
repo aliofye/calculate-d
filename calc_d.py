@@ -2,7 +2,7 @@ def calc_d():
 	e = 100 			#enter your own value for e here
 	tn = 1729 			#enter your own value for the totient of n (not the n value)
 	d = 0
-	limit = 10000000 	# you can change this to output more values for d in case the first value of d doesn't satisfy your needs
+	limit = 30 			# you can change this to output more values for d in case the first value of d doesn't satisfy your needs
 	m = 0			 	# multiply m by tn and incerement it one by one until the remainder is 0
 
 	for i in range (0, limit):
